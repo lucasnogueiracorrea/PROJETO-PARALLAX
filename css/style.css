@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font: 16px "Lato", san-serif;
+    color: black;
+    height: 100%;
+}
+
+.conteudo{
+    text-align: justify;
+    color: black;
+    background-color: white;
+    padding: 50px 80px;
+}
+
+.conteudo > h2{
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+}
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.box-1{
+    background-image: url(../img/imagem1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2{
+    background-image: url(../img/imagem2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3{
+    background-image: url(../img/imagem3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-4{
+    background-image: url(../img/imagem4.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-5{
+    background-image: url(../img/imagem5.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-6{
+    background-image: url(../img/imagem6.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ref{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(68, 67, 67);
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
